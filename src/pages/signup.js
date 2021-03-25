@@ -3,7 +3,6 @@ import { useMutation, useApolloClient, gql } from '@apollo/client';
 
 import UserForm from '../components/UserForm';
 
-import { PromiseProvider } from 'mongoose';
 
 const SIGNUP_USER = gql`
     mutation signUp($email: String!, $username: String!, $password: String!) {
