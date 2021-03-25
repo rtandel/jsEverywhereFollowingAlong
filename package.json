@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/javascripteverywhere/web/issues"
   },
-  "homepage": ".",
+  "homepage": "/dist/index.html",
   "dependencies": {
     "@apollo/client": "3.0.0-beta.24",
     "@types/react": "^16.9.17",
