@@ -13,6 +13,7 @@ const SignIn = props => {
   const client = useApolloClient();
   const [signIn, { loading, error }] = useMutation(SIGNIN_USER, {
     onCompleted: data => {
+      console.log(data);
       // store the token
       localStorage.setItem('token', data.signIn);
       // update the local cache
@@ -28,7 +29,7 @@ const SignIn = props => {
       {/* if the data is loading, display a loading message*/}
       {loading && <p>Loading...</p>}
       {/* if there is an error, display a error message*/}
-      {error && <p>Error signing in!</p>}
+      {error && <p>{error}</p>}
     </React.Fragment>
   );
 };
