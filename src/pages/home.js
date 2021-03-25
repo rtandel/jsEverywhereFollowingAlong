@@ -5,6 +5,7 @@ import NoteFeed from '../components/NoteFeed';
 import Button from '../components/Button';
 import { GET_NOTES } from '../gql/query';
 
+
 const Home = () => {
   // query hook
   const { data, loading, error, fetchMore } = useQuery(GET_NOTES);
