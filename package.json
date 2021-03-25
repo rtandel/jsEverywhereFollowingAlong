@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/javascripteverywhere/web/issues"
   },
-  "homepage": "https://github.com/javascripteverywhere/web#readme",
+  "homepage": "https://competent-poincare-9170f5.netlify.app",
   "dependencies": {
     "@apollo/client": "3.0.0-beta.24",
     "@types/react": "^16.9.17",
